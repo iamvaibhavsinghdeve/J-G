@@ -21,6 +21,7 @@ import beforeImg from './assets/before.png'
 import afterImg from './assets/after.png'
 import decorVase from './assets/decor-vase.png'
 import decorPlant from './assets/decor-plant.png'
+import logo from './assets/logo.png';
 
 
 /* ------------------------------ Brand icons -------------------------------- */
@@ -43,13 +44,16 @@ const LinkedinIcon = () => (
 )
 
 /* ---------------------------------- Logo ---------------------------------- */
-function Logo({ className = '' }) {
+function Logo({ className = "" }) {
   return (
     <a href="#home" className={`logo ${className}`}>
-      <span className="logo-mark">J&amp;G</span>
-      <span className="logo-sub">DESIGN GROUP</span>
+      <img
+        src={logo}
+        alt="J&G Design Group"
+        className="logo-image"
+      />
     </a>
-  )
+  );
 }
 
 /* --------------------------------- Header --------------------------------- */
