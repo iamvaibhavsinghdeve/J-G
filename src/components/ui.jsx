@@ -5,8 +5,8 @@ import {
   Users, Ruler, MapPin, FileText, BadgeCheck, Check,
 } from 'lucide-react'
 import { TRUST, COUNTERS } from '../data/site.js'
-import beforeImg from '../assets/before.png'
-import afterImg from '../assets/after.png'
+import beforeImg from '../assets/before.jpg'
+import afterImg from '../assets/after.jpg'
 import decorVase from '../assets/decor-vase.png'
 
 const ICONS = { users: Users, ruler: Ruler, map: MapPin, file: FileText, badge: BadgeCheck }

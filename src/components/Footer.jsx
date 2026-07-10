@@ -19,14 +19,6 @@ function InstagramIcon() {
     </svg>
   )
 }
-function LinkedinIcon() {
-  return (
-    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-      <path d="M6.94 8.5H3.56V21h3.38V8.5zM5.25 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM20.5 13.9c0-3.2-1.71-4.7-4-4.7-1.84 0-2.66 1.01-3.12 1.72V8.5H10v12.5h3.38v-6.98c0-1.85.85-2.95 2.28-2.95 1.31 0 1.96.92 1.96 2.95V21h3.38v-7.1z" />
-    </svg>
-  )
-}
-
 const QUICK_LINKS = [
   { label: 'Home', to: '/' },
   { label: 'About Us', to: '/about' },
@@ -50,9 +42,8 @@ export default function Footer() {
           <Link to="/" className="logo"><img src={logoImg} alt="J&G Design Group" /></Link>
           <p>Specialists in kitchen, bathroom and laundry renovations across Melbourne.</p>
           <div className="socials">
-            <a href="#" aria-label="Facebook"><FacebookIcon /></a>
-            <a href="#" aria-label="Instagram"><InstagramIcon /></a>
-            <a href="#" aria-label="LinkedIn"><LinkedinIcon /></a>
+            <a href="https://www.facebook.com/share/1BM1M95RRx/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FacebookIcon /></a>
+            <a href="https://www.instagram.com/jandgdesign/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><InstagramIcon /></a>
           </div>
         </div>
 

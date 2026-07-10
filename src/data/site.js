@@ -7,7 +7,7 @@ export const BUSINESS = {
   tagline: 'Kitchen. Bathroom. Laundry.',
   phoneDisplay: '0417 577 553',
   phoneHref: 'tel:+61417577553',
-  email: 'info@jandgdesigngroup.com.au', // PLACEHOLDER: confirm real email
+  email: 'contact@jandgdesigns.com.au', // confirmed by client
   addressLine: 'Unit 6/30 Heaths Ct, Mill Park VIC 3082, Australia',
   addressShort: 'Mill Park, VIC',
   mapsQuery: 'Unit 6/30 Heaths Ct, Mill Park VIC 3082, Australia',

@@ -397,3 +397,18 @@ button { font-family: inherit; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
+
+/* ------------------------------ Hover colours ----------------------------- */
+/* Buttons shift colour on hover */
+.btn-solid:hover { background: var(--green); }
+.btn-outline:hover { background: var(--green-dark); color: #fff; border-color: var(--green-dark); }
+.cta-band .btn-solid:hover { background: var(--green-soft); color: var(--green-dark); }
+
+/* Cards tint green on hover */
+.service-card, .include-card, .process-step, .why-point, .faq-item, .area-row-media {
+  transition: background 0.22s ease, border-color 0.22s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+.service-card:hover, .include-card:hover, .process-step:hover, .why-point:hover, .faq-item:hover {
+  border-color: var(--green); background: var(--green-soft);
+}
+.area-row-media:hover img { transform: scale(1.04); }
