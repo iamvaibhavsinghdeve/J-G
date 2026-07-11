@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Phone, Mail, MapPin, Clock, ShieldCheck, BadgeCheck } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock, Check } from 'lucide-react'
 import { BUSINESS, SERVICE_AREAS } from '../data/site.js'
 import logoImg from '../assets/logo.png'
 
@@ -79,14 +79,12 @@ export default function Footer() {
         <div className="footer-col">
           <h4>LICENSED &amp; ACCREDITED</h4>
           <div className="accreditations">
-            <div className="accreditation">
-              <ShieldCheck size={26} strokeWidth={1.6} />
-              <div><strong>REGISTERED</strong><span>Building Practitioner</span><span>VIC</span></div>
-            </div>
-            <div className="accreditation">
-              <BadgeCheck size={26} strokeWidth={1.6} />
-              <div><strong>MASTER</strong><span>BUILDERS</span><span>VICTORIA</span></div>
-            </div>
+            {['Electrical', 'Plumbing', 'Waterproofing'].map((t) => (
+              <div className="accreditation" key={t}>
+                <span className="accreditation-icon"><Check size={13} strokeWidth={3} /></span>
+                <span className="accreditation-label">{t}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

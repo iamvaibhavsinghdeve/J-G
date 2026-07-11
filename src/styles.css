@@ -211,12 +211,10 @@ button { font-family: inherit; }
 .footer-col li a:hover { color: var(--green-dark); }
 .footer-contact li { display: flex; align-items: flex-start; gap: 9px; }
 .footer-contact svg { color: var(--green); flex-shrink: 0; margin-top: 3px; }
-.accreditations { display: flex; flex-direction: column; gap: 16px; }
+.accreditations { display: flex; flex-direction: column; gap: 12px; }
 .accreditation { display: flex; align-items: center; gap: 10px; color: var(--ink); }
-.accreditation svg { flex-shrink: 0; color: var(--green-dark); }
-.accreditation div { display: flex; flex-direction: column; line-height: 1.35; }
-.accreditation strong { font-size: 10.5px; letter-spacing: 0.08em; }
-.accreditation span { font-size: 10.5px; color: var(--muted); }
+.accreditation-icon { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; background: var(--green-soft); color: var(--green-dark); flex-shrink: 0; }
+.accreditation-label { font-size: 12.5px; font-weight: 500; color: var(--ink); }
 .footer-bottom { border-top: 1px solid var(--line); padding: 18px 0; }
 .footer-bottom-inner { display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: 12px; color: var(--muted); }
 .footer-legal { display: flex; align-items: center; gap: 12px; }

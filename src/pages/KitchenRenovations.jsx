@@ -47,7 +47,7 @@ export default function KitchenRenovations() {
       faq={[
         { q: 'How long does a kitchen renovation take?', a: 'Most kitchen renovations take around three to five weeks on site once materials are ready, depending on the size and scope. We give you a clear timeline before we start and keep you updated throughout.' },
         { q: 'Can you work to my budget?', a: 'Yes. We offer a range of cabinetry and benchtop options at different price points, and we provide a detailed fixed quote so you know exactly what is included before any work begins.' },
-        { q: 'Do you supply the appliances?', a: 'We can supply and install appliances, or fit appliances you have already purchased. Either way we make sure everything is integrated correctly into your new layout.' },
+        // { q: 'Do you supply the appliances?', a: 'We can supply and install appliances, or fit appliances you have already purchased. Either way we make sure everything is integrated correctly into your new layout.' },
         { q: 'Do I need to organise other trades?', a: 'No. We coordinate every trade for you, including plumbers, electricians, tilers and cabinet makers, so you have a single point of contact for the whole project.' },
       ]}
     />
