@@ -27,7 +27,7 @@ export default function KitchenRenovations() {
         'Custom cabinetry and joinery',
         'Stone and laminate benchtops',
         'Tiled and stone splashbacks',
-        'Appliance supply and installation',
+        'Offer Appliance installation',
         'Plumbing and electrical included',
         'Flooring and task lighting',
       ]}
@@ -35,7 +35,7 @@ export default function KitchenRenovations() {
         { title: 'Design and layout', text: 'We plan the work triangle, storage and bench space around how you actually use your kitchen, so it feels effortless day to day.' },
         { title: 'Cabinetry and benchtops', text: 'Custom cabinetry in your choice of finish, topped with engineered stone, natural stone or laminate to suit your style and budget.' },
         { title: 'Splashbacks and tiling', text: 'Tiled, stone or glass splashbacks installed cleanly, with a finish that is easy to wipe down and built to last.' },
-        { title: 'Appliances and sinks', text: 'Supply and installation of ovens, cooktops, rangehoods, dishwashers and sinks, integrated neatly into your new layout.' },
+        { title: 'Appliances and sinks', text: 'Offer Installation of ovens, cooktops, rangehoods, dishwashers and sinks, integrated neatly into your new layout.' },
         { title: 'Plumbing and electrical', text: 'Licensed plumbers and electricians handle all rough in and connection work, including new power points and lighting.' },
         { title: 'Flooring and finishing', text: 'New flooring, kickboards, handles and a full clean so your kitchen is ready to use the moment we hand it back.' },
       ]}
@@ -47,7 +47,7 @@ export default function KitchenRenovations() {
       faq={[
         { q: 'How long does a kitchen renovation take?', a: 'Most kitchen renovations take around three to five weeks on site once materials are ready, depending on the size and scope. We give you a clear timeline before we start and keep you updated throughout.' },
         { q: 'Can you work to my budget?', a: 'Yes. We offer a range of cabinetry and benchtop options at different price points, and we provide a detailed fixed quote so you know exactly what is included before any work begins.' },
-        // { q: 'Do you supply the appliances?', a: 'We can supply and install appliances, or fit appliances you have already purchased. Either way we make sure everything is integrated correctly into your new layout.' },
+        // { q: 'Do you  the appliances?', a: 'We can  and install appliances, or fit appliances you have already purchased. Either way we make sure everything is integrated correctly into your new layout.' },
         { q: 'Do I need to organise other trades?', a: 'No. We coordinate every trade for you, including plumbers, electricians, tilers and cabinet makers, so you have a single point of contact for the whole project.' },
       ]}
     />
