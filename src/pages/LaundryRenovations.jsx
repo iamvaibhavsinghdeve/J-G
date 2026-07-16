@@ -44,7 +44,7 @@ export default function LaundryRenovations() {
         { q: 'How long does a laundry renovation take?', a: 'Laundry renovations are usually quicker than kitchens or bathrooms, often completed within one to three weeks on site depending on the scope and any tiling involved.' },
         { q: 'Can you fit a laundry into a small space?', a: 'Yes. We are experienced at designing compact and European style laundries that make the most of tight spaces without sacrificing storage.' },
         { q: 'Can I renovate my laundry with my bathroom?', a: 'Definitely. Many clients combine a laundry and bathroom renovation, which we manage together to save time and keep the finishes consistent.' },
-      //   { q: 'Do you supply laundry appliances?', a: 'We can supply and install appliances or work around ones you already own, making sure everything fits and connects correctly in your new layout.' },
+      //   { q: 'Do you  laundry appliances?', a: 'We can and install appliances or work around ones you already own, making sure everything fits and connects correctly in your new layout.' },
       // 
       ]}
     />
